@@ -13,6 +13,39 @@ mat-sidenav {
   background-color: #e7e7de;
 }
 
+.list {
+  width: 100%;
+  padding: 0;
+}
+
+a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 2%;
+}
+
+.item-content {
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.active {
+  color:rgb(77, 175, 175);
+  font-size: larger;
+}
+
 h1 {
   margin-bottom: 0;
 }
