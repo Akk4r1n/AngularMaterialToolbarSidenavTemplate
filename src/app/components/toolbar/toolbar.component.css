@@ -1,7 +1,5 @@
 mat-toolbar {
   justify-content: space-between;
-  background-image: url("../../../assets/BackgroundLight.jpg");
-  background-size: cover;
 }
 
 .title {
